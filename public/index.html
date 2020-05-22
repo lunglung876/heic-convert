@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HEIC converter</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Convert HEIC to JPEG">
+    <link rel="stylesheet" type="text/css" href="./main.css">
+</head>
+<body>
+<div id="container" class="container">
+    <h1 class="my-4">HEIC Converter</h1>
+    <div class="custom-file mb-5">
+        <input type="file" class="custom-file-input" id="file-input" accept=".heic" multiple="false">
+        <label class="custom-file-label" for="customFile">Choose file</label>
+    </div>
+    <div id="loading" class="d-none">
+        <img class="d-block mx-auto" src="./loading.svg" />
+    </div>
+    <div id="download" class="d-none">
+        <button id="download-btn" class="btn btn-primary d-block mx-auto">Download</button>
+    </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
