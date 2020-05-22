@@ -30,4 +30,9 @@ function convertImage() {
             input.removeAttribute('disabled');
             downloadElem.classList.remove('d-none');
         })
+        .catch((e) => {
+            console.log(e.message);
+            loadingElem.classList.add('d-none');
+            input.removeAttribute('disabled');
+        });
 }
