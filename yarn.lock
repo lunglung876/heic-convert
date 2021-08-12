@@ -2490,22 +2490,6 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-heic-convert@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/heic-convert/-/heic-convert-1.2.2.tgz#6b87003284b6213be9df24098c6141d904205ce3"
-  integrity sha512-4eBU7n4ZAVdjlP3WYFh+OsSWUrwgx/TBJSmnvTl8d70GZDEy16tHCmaoz08IuwUOp80ymuOqHgEHLmHAAG1gKQ==
-  dependencies:
-    heic-decode "^1.1.0"
-    jpeg-js "^0.3.6"
-    pngjs "^3.4.0"
-
-heic-decode@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/heic-decode/-/heic-decode-1.1.1.tgz#7b8c2e5a4b7a7bc1c8eb754ac35ed77be44c5a20"
-  integrity sha512-0KKYaXk2QSZrQIp4UKaNt/tyK8UGZkdfTzZRzny+cyYbNPJXRicaLCphMOuaBxHpHvCBTqnl0rM0qQ+rN98gJg==
-  dependencies:
-    libheif-js "^1.6.1"
-
 heic2any@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/heic2any/-/heic2any-0.0.3.tgz#59248665a3646424b1f88c0aaaa1abba3bbd1aae"
@@ -2864,11 +2848,6 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-jpeg-js@^0.3.6:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.3.7.tgz#471a89d06011640592d314158608690172b1028d"
-  integrity sha512-9IXdWudL61npZjvLuVe/ktHiA41iE8qFyLB+4VDTblEsWBzeg8WQTlktdUK4CdncUqtUgUg0bbOmTE2bKBKaBQ==
-
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.2.tgz#313b6274dda718f714d00b3330bbae6e38e90209"
@@ -2988,11 +2967,6 @@ levenary@^1.1.1:
   integrity sha512-mkAdOIt79FD6irqjYSs4rdbnlT5vRonMEvBVPVb3XmevfS8kgRXwfes0dhPdEtzTWD/1eNE/Bm/G1iRt6DcnQQ==
   dependencies:
     leven "^3.1.0"
-
-libheif-js@^1.6.1:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/libheif-js/-/libheif-js-1.6.2.tgz#e57ace34dbb1b9ae9bd46d6119fa6ff2b03ac684"
-  integrity sha512-+UJ9x/D62Yf87ff9iSRMAldaKfvSIpkubqLalJugf2lu8F9tyeDXEZZP3cFbW+DoKt/n5IH9gnp5myR5W3YI0A==
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -3721,9 +3695,9 @@ path-key@^2.0.0, path-key@^2.0.1:
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^1.0.0:
   version "1.1.0"
@@ -3790,11 +3764,6 @@ pkg-up@^2.0.0:
   integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
   dependencies:
     find-up "^2.1.0"
-
-pngjs@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
-  integrity sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
