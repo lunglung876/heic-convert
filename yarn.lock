@@ -1313,9 +1313,9 @@ browserslist@^4.11.1, browserslist@^4.12.0, browserslist@^4.6.4, browserslist@^4
     pkg-up "^2.0.0"
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-xor@^1.0.3:
   version "1.0.3"
@@ -2490,22 +2490,6 @@ hash.js@^1.0.0, hash.js@^1.0.3:
     inherits "^2.0.3"
     minimalistic-assert "^1.0.1"
 
-heic-convert@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/heic-convert/-/heic-convert-1.2.2.tgz#6b87003284b6213be9df24098c6141d904205ce3"
-  integrity sha512-4eBU7n4ZAVdjlP3WYFh+OsSWUrwgx/TBJSmnvTl8d70GZDEy16tHCmaoz08IuwUOp80ymuOqHgEHLmHAAG1gKQ==
-  dependencies:
-    heic-decode "^1.1.0"
-    jpeg-js "^0.3.6"
-    pngjs "^3.4.0"
-
-heic-decode@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/heic-decode/-/heic-decode-1.1.1.tgz#7b8c2e5a4b7a7bc1c8eb754ac35ed77be44c5a20"
-  integrity sha512-0KKYaXk2QSZrQIp4UKaNt/tyK8UGZkdfTzZRzny+cyYbNPJXRicaLCphMOuaBxHpHvCBTqnl0rM0qQ+rN98gJg==
-  dependencies:
-    libheif-js "^1.6.1"
-
 heic2any@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/heic2any/-/heic2any-0.0.3.tgz#59248665a3646424b1f88c0aaaa1abba3bbd1aae"
@@ -2864,11 +2848,6 @@ isstream@~0.1.2:
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
   integrity sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
 
-jpeg-js@^0.3.6:
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/jpeg-js/-/jpeg-js-0.3.7.tgz#471a89d06011640592d314158608690172b1028d"
-  integrity sha512-9IXdWudL61npZjvLuVe/ktHiA41iE8qFyLB+4VDTblEsWBzeg8WQTlktdUK4CdncUqtUgUg0bbOmTE2bKBKaBQ==
-
 js-base64@^2.1.8, js-base64@^2.1.9:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.5.2.tgz#313b6274dda718f714d00b3330bbae6e38e90209"
@@ -2988,11 +2967,6 @@ levenary@^1.1.1:
   integrity sha512-mkAdOIt79FD6irqjYSs4rdbnlT5vRonMEvBVPVb3XmevfS8kgRXwfes0dhPdEtzTWD/1eNE/Bm/G1iRt6DcnQQ==
   dependencies:
     leven "^3.1.0"
-
-libheif-js@^1.6.1:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/libheif-js/-/libheif-js-1.6.2.tgz#e57ace34dbb1b9ae9bd46d6119fa6ff2b03ac684"
-  integrity sha512-+UJ9x/D62Yf87ff9iSRMAldaKfvSIpkubqLalJugf2lu8F9tyeDXEZZP3cFbW+DoKt/n5IH9gnp5myR5W3YI0A==
 
 load-json-file@^1.0.0:
   version "1.1.0"
@@ -3790,11 +3764,6 @@ pkg-up@^2.0.0:
   integrity sha1-yBmscoBZpGHKscOImivjxJoATX8=
   dependencies:
     find-up "^2.1.0"
-
-pngjs@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.4.0.tgz#99ca7d725965fb655814eaf65f38f12bbdbf555f"
-  integrity sha512-NCrCHhWmnQklfH4MtJMRjZ2a8c80qXeMlQMv2uVp9ISJMTt562SbGd6n2oq0PaPgKm7Z6pL9E2UlLIhC+SHL3w==
 
 posix-character-classes@^0.1.0:
   version "0.1.1"
@@ -4817,9 +4786,9 @@ source-map-resolve@^0.5.0:
     urix "^0.1.0"
 
 source-map-support@~0.5.12:
-  version "0.5.19"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
-  integrity sha512-Wonm7zOCIJzBGQdB+thsPar0kYuCIzYvxZwlBa87yi/Mdjv7Tip2cyVbLj5o0cFPN4EVkuTwb3GDDyUx2DGnGw==
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -5107,9 +5076,9 @@ terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.7.0.tgz#15852cf1a08e3256a80428e865a2fa893ffba006"
-  integrity sha512-Lfb0RiZcjRDXCC3OSHJpEkxJ9Qeqs6mp2v4jf2MHfy8vGERmVDuvjXdd/EnP5Deme5F2yBRBymKmKHCBg2echw==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
